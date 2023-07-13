@@ -1,0 +1,13 @@
+train: E:\deketeksislotparkir\parkirslot\train
+val: E:\deketeksislotparkir\parkirslot\valid
+# test: ../test/images
+
+nc: 2
+names: ['belum terisi', 'sudah terisi']
+
+roboflow:
+  workspace: cps5
+  project: parkir-od9w4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cps5/parkir-od9w4/dataset/1

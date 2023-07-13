@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cryptography = "==40.0.2"
+flask = "==2.3.1"
+flask-jwt-extended = "==4.4.4"
+flask-restx = "==1.1.0"
+flask-sqlalchemy = "==3.0.3"
+mysqlclient = "==2.1.1"
+pyjwt = "==2.6.0"
+sqlalchemy = "==2.0.11"
+werkzeug = "==2.3.2"
+pymysql = "==1.0.3"
+flask-mail = "*"
+torch = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
